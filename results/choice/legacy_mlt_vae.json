@@ -1,0 +1,20 @@
+{
+  "n_slates": 9371,
+  "n_users": 435,
+  "canonical": {
+    "nDCG@10": 0.3270919212018899,
+    "Precision@5": 0.15936399530466333
+  },
+  "notebook_metrics": {
+    "nDCG@10": 0.3270919212018885,
+    "Precision@5": 0.19023049834596786
+  },
+  "mode": "legacy",
+  "model": "mlt_vae",
+  "published_mixed_table": {
+    "nDCG@10": 0.328,
+    "Precision@5": 0.189
+  },
+  "evaluator_commit": "3dcc7d36facf026798696d7b891663ca40ecb511",
+  "dataset_commit": "3c8af3b828d9a194d15f1b19abb739319cdb1751"
+}

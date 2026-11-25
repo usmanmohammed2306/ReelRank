@@ -1,0 +1,37 @@
+{
+  "expanded_cohort_sha256": {
+    "news.tsv": "5fa283faec9958062cac0660577e0c3b426714be2f46aeb822667eb5c792b3aa",
+    "behaviors.tsv": "a0b2fa94efdf3c9a62f2313215d914a3590e53ada81dddff5bf35cb6fef97231"
+  },
+  "archive_sha256": "67b0437b48b6baee5655b6063a56d29edbcc92308fc0140555b0ae27263cf9e9",
+  "article_crosswalk": {
+    "shared_article_urls": 49208,
+    "shared_urls_matching_title_category_subcategory": 49208,
+    "shared_urls_matching_abstract": 49208,
+    "large_news_ids_also_seen_in_small": 36131,
+    "same_url_at_coincident_raw_id": 1,
+    "large_only_urls": 22815
+  },
+  "complete_source_and_exclusions": {
+    "source_impressions": 376471,
+    "source_candidates": 14085557,
+    "impressions_matching_nonempty_history": 86989,
+    "impressions_matching_timestamp_and_slate": 76724,
+    "matched_slates_with_identical_clicked_articles": 74501,
+    "matched_slates_with_identical_raw_user_id": 0,
+    "source_users": 255990,
+    "known_small_users": 94057,
+    "excluded_users": 78802,
+    "excluded_by_raw_user_id": 28670,
+    "excluded_by_nonempty_history": 59429,
+    "excluded_by_timestamp_and_slate": 53555,
+    "eligible_users": 177188,
+    "eligible_impressions": 259161,
+    "eligible_candidates": 9810708,
+    "eligible_clicks": 397272,
+    "eligible_candidates_with_small_metadata": 9809574,
+    "eligible_candidates_exposed_in_small_training": 7738619,
+    "eligible_impressions_with_empty_history": 8070
+  },
+  "cohort_private_zip_sha256": "b572e2fb2369000a36043225396e7fc864ef73c1ef77038b217b0f52e6cb371a"
+}

@@ -1,0 +1,62 @@
+{
+  "mean_popularities_books.npy": {
+    "url": "https://osf.io/download/p8nuy/",
+    "sha256": "ade401ce312ee8a69fecf73b91f27c0f6db022e72e41d353c4e283f59bafa23b"
+  },
+  "mean_popularities_movies.npy": {
+    "url": "https://osf.io/download/j63ba/",
+    "sha256": "97a0230222fbad93412807c3c234b01ad2c5c9e63402a933c24abd00da602cba"
+  },
+  "full_books_item_item.npy": {
+    "url": "https://osf.io/download/gqta9/",
+    "sha256": "fd7e622addb384cfb3c583eeefa78c1887088bcc49281bec38c7dff7a14c3c14"
+  },
+  "full_movies_item_item.npy": {
+    "url": "https://osf.io/download/4jte5/",
+    "sha256": "79a051382ba2ce1f1d76599d8a20a83ba54fb345df83caa7e2149c7f85d86ae5"
+  },
+  "std_vae_books_cache.zip": {
+    "url": "https://osf.io/download/6834e0f5c13b9db7cbab8113/",
+    "sha256": "50dbbc4a89b05dd6003fe06ee53c752756f351572bee2fab4ce1a2baa125f506"
+  },
+  "mlt_vae_books_cache.zip": {
+    "url": "https://osf.io/download/wpc8j/",
+    "sha256": "6191dc7badc2c2a079c9bdb59e37531b2ff9ec3ec87a7b0cf4f194fd9d3c6b8d"
+  },
+  "std_vae_movies_cache.zip": {
+    "url": "https://osf.io/download/6834e1285f797f4b5553968b/",
+    "sha256": "856ddc312f6cea4a79bfa3f81b0cc8f67471b6ae53ea2c6780536036b1c0b94a"
+  },
+  "mlt_vae_movies_cache.zip": {
+    "url": "https://osf.io/download/6834e129caa91119fc539399/",
+    "sha256": "a9aac3be2ab7d7d8d2addcec82fd74a5f45b8551f9a2cfff6e18e5f570a8f8d4"
+  },
+  "implicit_mf_books.bpk": {
+    "url": "https://osf.io/download/j8rw9/",
+    "sha256": "901eb772d5ea590d3c3f44c4b543b9f8a754ea6b999afaa169da109ad9f43278"
+  },
+  "implicit_mf_movies.bpk": {
+    "url": "https://osf.io/download/6841666e671c8b5515d6a52f/",
+    "sha256": "eaab7dd6b4970047661566f22833403716c0ee32c6d9bd0cd17e2b21cf2892e7"
+  },
+  "user_knn_books.bpk": {
+    "url": "https://osf.io/download/68416675fe09bf09eeab812d/",
+    "sha256": "c35d8d61d356561802367cb34a05c3316f561d424f0a7b2e0872c757ef288403"
+  },
+  "user_knn_movies.bpk": {
+    "url": "https://osf.io/download/6841667c01b07224d985b5a8/",
+    "sha256": "126ab29546adc8de51167939019d82394b51dcdf2229b44c28ca94ab15c23cea"
+  },
+  "Task 3 Reranking.ipynb": {
+    "url": "https://osf.io/download/xbnf6/",
+    "sha256": "84835d57c99c354a734f894ca75c3a0cee5b6bf66d700aba99b075084cb4f8a8"
+  },
+  "Task 6 Satisfaction Prediction.ipynb": {
+    "url": "https://osf.io/download/m35fr/",
+    "sha256": "23be3e6c7fcc10071cbec0269eba48e113db321cfe21e09068b7aa4eb58cbabf"
+  },
+  "common.py": {
+    "url": "https://osf.io/download/jf6rw/",
+    "sha256": "01fba36aadfd34885dfb334cc91a9b6cccfde70845926dce11df681573f0c6a1"
+  }
+}

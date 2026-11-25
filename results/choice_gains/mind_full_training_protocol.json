@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "condition": "Supplement specified after the existing small-trained validation scores were known and before measuring any large-training comparator. Keep all outcomes. Same complete labelled MIND-large validation with canonical article-ID tie hash.",
+  "source": "https://huggingface.co/datasets/Recommenders/MIND/resolve/2115068f457b577f93a268fffe22373e45727d89/MINDlarge_train.zip",
+  "train_sha256": "7e7da0ecc45db1d8769eebf92301675e7af443b0d5266ac12b6e102bb8399233",
+  "validation_sha256": "67b0437b48b6baee5655b6063a56d29edbcc92308fc0140555b0ae27263cf9e9",
+  "models": "MostPop counts training impression clicks per article. SmoothedCTR uses all training displays and clicks with 20 pseudo-exposures at the global training click rate. Public implicit 0.7.2 CPU ALS with 64 factors, alpha 40, regularization .1, 15 full iterations and seed 575 on distinct binary user-article interactions from all training histories and recorded positive impressions. Fold in each test profile's latest 50 historical clicks using the library's exact least-squares solver; unseen article vectors are zero.",
+  "extension": "80% within-list percentile of the fixed capped-history static ReelRank score, 20% within-list percentile of large-training smoothed CTR. Equal-score midranks for these two components. No hyperparameter search, new neural training, validation labels or current-day feedback used to construct these rankings. Previously measured validation release so treat as a secondary benchmark extension.",
+  "metrics": "Full AUC, MRR, NDCG@5, NDCG@10 and first-position hits. Validate common candidate order and per-impression labels across raw and reindexed archives. Reader-cluster intervals against external reference orders."
+}

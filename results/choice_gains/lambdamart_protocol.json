@@ -1,0 +1,7 @@
+{
+  "question": "How does the locked movie and book model compare to the official LightGBM LambdaMART ranker trained on exactly the same inputs and supervision?",
+  "status": "Comparator specified after the seven released SM-RS results were known, before this external ranker's fit and assessment. No change to ReelRank.",
+  "implementation": "LightGBM 4.6.0 LGBMRanker, lambdarank objective, binary label gains, same ten-candidate query groups. Working training rows deterministically ordered by an item-id hash independent of the historical interface order. Same feature columns, labels, participant folds and evaluation tie policy as ReelRank.",
+  "development": "Four participant-disjoint folds among the same 86 development participants. Grid leaves {7,15,31}, n_estimators {80,200}, lambdarank_truncation_level {3,10}. Fixed learning_rate=.05, L2=5, min_child_samples=30, max_bin=63. Select mean first-position hit, then nDCG, then lower-complexity configuration. No early stopping on held-out participants.",
+  "assessment": "Refit frozen external configuration on all development participants; evaluate all 5,510 identical lists with 349 held-out participants, resample people in pairs 5,000 times. Additional forward-time fit uses same configuration and split as ReelRank. Report results regardless of direction."
+}

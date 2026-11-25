@@ -1,0 +1,242 @@
+{
+  "raw_label_regrade": {
+    "confirmation": {
+      "lambdamart": {
+        "first_hits": 2882,
+        "lists": 5510,
+        "raw_metrics": {
+          "ndcg": 0.6824184088890894,
+          "p5": 0.4126678765880228,
+          "hit1": 0.523049001814882,
+          "hit5": 0.8208711433756806,
+          "first": 3.1132486388384755
+        }
+      },
+      "personal50": {
+        "first_hits": 2920,
+        "lists": 5510,
+        "raw_metrics": {
+          "ndcg": 0.68503383486316,
+          "p5": 0.41451905626134433,
+          "hit1": 0.52994555353902,
+          "hit5": 0.821415607985481,
+          "first": 3.0907441016333936
+        }
+      }
+    },
+    "forward": {
+      "lambdamart": {
+        "first_hits": 1113,
+        "lists": 2358,
+        "raw_metrics": {
+          "ndcg": 0.6674922300474898,
+          "p5": 0.37150127226463237,
+          "hit1": 0.4720101781170484,
+          "hit5": 0.8091603053435115,
+          "first": 3.1942324003392706
+        }
+      },
+      "personal50": {
+        "first_hits": 1186,
+        "lists": 2358,
+        "raw_metrics": {
+          "ndcg": 0.695237053559829,
+          "p5": 0.414334181509756,
+          "hit1": 0.5029686174724343,
+          "hit5": 0.8515691263782866,
+          "first": 2.860899067005937
+        }
+      }
+    }
+  },
+  "original_release_rerun": {
+    "identity": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.215,
+        "Precision@5": 0.131
+      },
+      "first_replay": {
+        "nDCG@10": 0.21508258985443116,
+        "Precision@5": 0.13085583182158061
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.21508258985443116,
+        "Precision@5": 0.13085583182158061
+      },
+      "paper_cells_matching_first_and_fresh": [
+        2,
+        2
+      ]
+    },
+    "popularity": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.406,
+        "Precision@5": 0.244
+      },
+      "first_replay": {
+        "nDCG@10": 0.40625446425885126,
+        "Precision@5": 0.24386404866076455
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.40625446425885126,
+        "Precision@5": 0.24386404866076455
+      },
+      "paper_cells_matching_first_and_fresh": [
+        2,
+        2
+      ]
+    },
+    "ease": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.368,
+        "Precision@5": 0.225
+      },
+      "first_replay": {
+        "nDCG@10": 0.36788782726561775,
+        "Precision@5": 0.22491196243731232
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.36788782726561775,
+        "Precision@5": 0.22491196243731232
+      },
+      "paper_cells_matching_first_and_fresh": [
+        2,
+        2
+      ]
+    },
+    "implicit_mf": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.337,
+        "Precision@5": 0.21
+      },
+      "first_replay": {
+        "nDCG@10": 0.33749886824753134,
+        "Precision@5": 0.20967346067656414
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.33749886824753134,
+        "Precision@5": 0.20967346067656414
+      },
+      "paper_cells_matching_first_and_fresh": [
+        2,
+        2
+      ]
+    },
+    "user_knn": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.367,
+        "Precision@5": 0.224
+      },
+      "first_replay": {
+        "nDCG@10": 0.36747884924737373,
+        "Precision@5": 0.223652758510307
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.36747884924737373,
+        "Precision@5": 0.223652758510307
+      },
+      "paper_cells_matching_first_and_fresh": [
+        2,
+        2
+      ]
+    },
+    "std_vae": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 466,
+      "original_paper": {
+        "nDCG@10": 0.292,
+        "Precision@5": 0.174
+      },
+      "first_replay": {
+        "nDCG@10": 0.29204181580491434,
+        "Precision@5": 0.17484259950912884
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.2908848982643629,
+        "Precision@5": 0.17509870878241884
+      },
+      "paper_cells_matching_first_and_fresh": [
+        1,
+        0
+      ]
+    },
+    "mlt_vae": {
+      "original_notebook_prefixes": 9371,
+      "observed_recommendation_lists": 6892,
+      "identical_rank_orders": 6892,
+      "original_paper": {
+        "nDCG@10": 0.328,
+        "Precision@5": 0.189
+      },
+      "first_replay": {
+        "nDCG@10": 0.3270919212018885,
+        "Precision@5": 0.19023049834596786
+      },
+      "fresh_replay": {
+        "nDCG@10": 0.3270919212018885,
+        "Precision@5": 0.19023049834596786
+      },
+      "paper_cells_matching_first_and_fresh": [
+        0,
+        0
+      ]
+    }
+  },
+  "printed_cells_reproduced": {
+    "total": 14,
+    "first_replay": 11,
+    "fresh_replay": 10
+  },
+  "isolated_frozen_refit": {
+    "confirmation": {
+      "lists": 5510,
+      "identical_top_ten_orders": 5510,
+      "first_hits": 2920,
+      "archived_first_hits": 2920
+    },
+    "grouped": {
+      "lists": 6892,
+      "identical_top_ten_orders": 6892,
+      "first_hits": 3735,
+      "archived_first_hits": 3735
+    },
+    "forward": {
+      "lists": 2358,
+      "identical_top_ten_orders": 2358,
+      "first_hits": 1186,
+      "archived_first_hits": 1186
+    }
+  },
+  "isolated_lambdamart_repeat": {
+    "max_grid_difference": 0.0,
+    "winning_configuration": [
+      31,
+      200,
+      3
+    ],
+    "confirmation": {
+      "identical_rankings": 5510,
+      "first_hits": 2882
+    },
+    "forward": {
+      "identical_rankings": 2358,
+      "first_hits": 1113
+    }
+  }
+}

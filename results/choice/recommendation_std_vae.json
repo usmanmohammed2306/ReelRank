@@ -1,0 +1,16 @@
+{
+  "n_slates": 6892,
+  "n_users": 435,
+  "canonical": {
+    "nDCG@10": 0.5904379137972584,
+    "Precision@5": 0.3240858966918166
+  },
+  "mode": "recommendation",
+  "model": "std_vae",
+  "published_mixed_table": {
+    "nDCG@10": 0.292,
+    "Precision@5": 0.174
+  },
+  "evaluator_commit": "3dcc7d36facf026798696d7b891663ca40ecb511",
+  "dataset_commit": "3c8af3b828d9a194d15f1b19abb739319cdb1751"
+}

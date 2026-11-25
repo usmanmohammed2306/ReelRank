@@ -1,0 +1,20 @@
+{
+  "n_slates": 9371,
+  "n_users": 435,
+  "canonical": {
+    "nDCG@10": 0.36788782726562125,
+    "Precision@5": 0.19404545939600898
+  },
+  "notebook_metrics": {
+    "nDCG@10": 0.36788782726561775,
+    "Precision@5": 0.22491196243731232
+  },
+  "mode": "legacy",
+  "model": "ease",
+  "published_mixed_table": {
+    "nDCG@10": 0.368,
+    "Precision@5": 0.225
+  },
+  "evaluator_commit": "3dcc7d36facf026798696d7b891663ca40ecb511",
+  "dataset_commit": "3c8af3b828d9a194d15f1b19abb739319cdb1751"
+}

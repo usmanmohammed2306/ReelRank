@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "question": "How often can the finalized ReelRank model place a participant-selected title first on a genuine SM-RS recommendation list?",
+  "unit": "Every genuine ten-title SM-RS 2.0 recommendation display. Empty selected sets count as misses. Primary metric first-position hit, secondary nDCG@10, Precision@5, first-five hit and position of first pick. Individual lists may have more than one pick.",
+  "features": "Timestamped prior offers and selections, publisher ImplicitMF item factors, catalog and rating statistics, and six published recommendation-engine ranks. Current displayed order and labels are excluded from the scoring features.",
+  "method": "Fit a viewer-specific regularized discriminant of clicked versus previously offered item vectors; combine its score with positive-minus-exposure affinities, field-level neighbor support, group-level catalog embedding descriptors, and existing features. Separate all-prior evidence from recommendation-round-only evidence. Learn population ranking from training participants only.",
+  "controls": "The six published recommendation engines, the recorded display order, and a supervised LightGBM LambdaMART model fitted to the same features and outcomes.",
+  "development": "Use the original 86 development participants exclusively. Four GroupKFold folds. Candidate blends of standardized within-list linear choice margin and boosted logit 25%, 50%, 75%, 100%; fully augmented descriptors. Fixed histogram boosted models (180 trees, 12 leaves, L2 10) and list-balanced conditional logit. Selection by highest mean first-slot hit, ties nDCG, then smaller tree fraction. Source and protocol hash frozen before scoring the known 349-person comparison dataset.",
+  "check": "Evaluate 5,510 lists from 349 participants distinct from development, plus five participant-disjoint folds over 6,892 lists from 435 people. Use 5,000 participant-cluster bootstrap draws for fixed-prediction contrasts and independently regrade from raw publisher data. This is a retrospective evaluation on released logs.",
+  "inputs": "MovieLens 25M, Goodbooks-10k and released SM-RS checkpoint/table hashes as in the prior catalog model. The movie ratings are input features, not test outcomes."
+}
